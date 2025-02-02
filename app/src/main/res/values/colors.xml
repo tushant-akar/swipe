@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="primaryColor">#673AB7</color>
+    <color name="primaryDarkColor">#512DA8</color>
+    <color name="accentColor">#FF9800</color>
+    <color name="textColor">#212121</color>
+    <color name="secondaryTextColor">#757575</color>
+    <color name="backgroundColor">#F5F5F5</color>
+    <color name="shimmerBase">#E0E0E0</color>
+    <color name="shimmerHighlight">#F5F5F5</color>
+    <color name="priceColor">#D32F2F</color>
+    <color name="fabRippleColor">#B3FFFFFF</color> <!-- Light white ripple effect -->
+
+</resources>

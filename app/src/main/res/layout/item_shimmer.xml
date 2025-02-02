@@ -1,0 +1,65 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="6dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/productImage"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:cardBackgroundColor="@color/shimmerBase"
+            app:cardCornerRadius="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintStart_toEndOf="@id/productImage"
+            app:layout_constraintTop_toTopOf="@id/productImage"
+            app:layout_constraintBottom_toBottomOf="@id/productImage"
+            android:layout_marginStart="6dp"
+            app:layout_constraintEnd_toEndOf="parent">
+
+        <View
+            android:id="@+id/productName"
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:layout_marginBottom="2dp"
+            android:background="@color/shimmerBase"/>
+
+        <View
+            android:id="@+id/productType"
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            android:layout_marginBottom="2dp"
+            android:background="@color/shimmerBase" />
+
+        <View
+            android:id="@+id/productTax"
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            android:layout_marginBottom="2dp"
+            android:background="@color/shimmerBase" />
+
+        <View
+            android:id="@+id/productPrice"
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:background="@color/shimmerBase"/>
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
